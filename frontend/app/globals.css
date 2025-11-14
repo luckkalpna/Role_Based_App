@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 /* custom styles */
+
+.my-container{
+  margin: auto;
+  max-width: 1200px;
+}

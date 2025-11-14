@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es2016",
+        "module": "commonjs",
+        "rootDir": "./src", // Crucial: This tells TS where your source files are
+        "outDir": "./dist",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./@types"
+        ]
+    },
+    "include": [
+        "src/**/*.ts", // Crucial: This tells TS to compile files in src
+        "@types/**/*.d.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
